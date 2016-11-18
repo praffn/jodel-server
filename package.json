@@ -1,0 +1,21 @@
+{
+  "name": "jodel-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:praffn/jodel-server.git",
+    "type": "git"
+  },
+  "author": "Phillip Raffnsøe <phillip@praffn.dk>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  }
+}
